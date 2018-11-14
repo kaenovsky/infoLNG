@@ -5,7 +5,9 @@ html {
 body {
   margin: 2em;
   background-color: #ec5e60;
-
+  background-image: url("../../assets/img/background-lng.png");
+  background-size: cover;
+  background-position: center;
   font-family: Montserrat;
   /* background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */
@@ -41,6 +43,7 @@ h1 {
   margin: 10px;
 	/* border:1px solid #dcdcdc; */
 	display:inline-block;
+  border-radius: 10px;
 	color: black;
 	font-family:Arial;
 	font-size:15px;
@@ -65,6 +68,7 @@ h1 {
 
 
 img {
+  margin-top: 2vw;
   width: 200px;
 }
 
